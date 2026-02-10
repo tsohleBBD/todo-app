@@ -1,5 +1,5 @@
 public class TodoItem{
-    private String title;
+    final private String title;
     private boolean completed;
 
     public TodoItem(String title) {
